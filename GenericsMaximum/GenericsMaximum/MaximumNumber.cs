@@ -8,7 +8,7 @@ namespace GenericsMaximum
 {
     public class MaximumNumber
     {
-             public int MaxNumber(int firstNumber, int secondNumber, int thirdNumber)
+             public double MaxNumber(double firstNumber, double secondNumber, double thirdNumber)
             {
                 if (firstNumber.CompareTo(secondNumber) > 0 && firstNumber.CompareTo(thirdNumber) > 0)
                 {
@@ -19,6 +19,6 @@ namespace GenericsMaximum
                     return secondNumber;
                 }
                 return thirdNumber;
-            }
-        }
+             }
+    }
 }
